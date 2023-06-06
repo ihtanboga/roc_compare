@@ -1,0 +1,12 @@
+Package: myshinyapp
+Title: Compare ROC curve
+Description: This app allows you to show multiple ROC curves and their AUC value with 95% CI
+Version: 0.1
+Authors:
+  - Your Ibrahim Halil Tanboga, haliltanboga@yahoo.com
+License: GPL-3
+Imports:
+  shiny,
+  ggplot2,
+  readxl,
+  pROC
